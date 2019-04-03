@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$mainBlack: #222;
+$mainGreen: #82b340;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+$mainTransition: all 0.3s linear;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: $mainGrey;
+  color: $mainBlack;
+}
+
+.tour-info {
+  padding: 1rem 0.5rem;
+  h3 {
+    text-transform: uppercase;
+    color: $mainGreen;
+  }
+  h4 {
+    text-transform: capitalize;
+    margin: 0.2rem 0 0.6rem 0;
+
+    span {
+      color: $mainGreen;
+      margin: 0.5rem;
+      font-size: 1.2rem;
+    }
+  }
+}
